@@ -1,0 +1,17 @@
+name: resource_implementation
+description: An implementation for agtech project
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+
+vars:
+  feature:
+    type: string
+    description: Put feature Name
+    prompt: What the feature name?
+  endpoint:
+    type: string
+    description: Put endpoint
+    prompt: What's the endpoint?
